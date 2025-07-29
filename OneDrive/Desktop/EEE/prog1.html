@@ -1,0 +1,80 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <p id="demo">no</p>
+    <p class ="my">hello </p>
+    <p class ="my">bye </p>
+    <p class ="my">See you </p>
+    <h2> peter</h2>
+
+    <button onclick=" changeText();"> Click me!</button>
+    <button id="myButton">Click me to change color</button>
+    <script> 
+        //id 
+        document.getElementById("demo").innerHTML = " hello world";
+        //class name
+        function changeText(){
+            var mytext = document.getElementsByClassName('my');
+            mytext[1].innerHTML = " you clicked the button!";
+        }
+
+
+        //javascript to change button color
+        document.getElementById('myButton').addEventListener('click',function()
+    {
+        this.style.backgroundColor= 'red';
+     
+
+    });
+    </script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Font Size</title>
+</head>
+<body>
+
+<p id="myPara">Hii Azeema firdous.</p>
+
+<!-- <script>
+
+  let para = document.getElementById("myPara");
+  para.style.fontSize = "50px";
+</script> -->
+
+    <div id = "s"> 
+        <h1>hello</h1>
+        <h2> seema </h2>
+    </div>
+        
+<script>
+    //create element
+    // const para = document.createElement("p");
+    // para.innerHTML = " this is a paragraph";
+    // //append to body
+    // document.body.appendChild(para);
+const para = document.createElement("p");
+para.innerHTML = " this is me";
+const s= documentgetElementbyid("div");
+div.append(para);
+// document.body.div.appendChild(para);
+
+
+</script>
+
+</body>
+</html>
