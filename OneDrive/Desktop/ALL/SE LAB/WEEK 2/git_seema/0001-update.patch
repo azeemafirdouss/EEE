@@ -1,0 +1,27 @@
+From 4e29640b8c0fe16a8329a8e3e1188e3c0a1dab17 Mon Sep 17 00:00:00 2001
+From: azeemafirdouss <azeemafirdous14@gmail.com>
+Date: Fri, 8 Aug 2025 13:10:19 +0530
+Subject: [PATCH] update
+
+---
+ OneDrive/Desktop/git_seema/.gitignore | 1 +
+ OneDrive/Desktop/git_seema/se.txt     | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 OneDrive/Desktop/git_seema/se.txt
+
+diff --git a/OneDrive/Desktop/git_seema/.gitignore b/OneDrive/Desktop/git_seema/.gitignore
+index e69de29..da7065a 100644
+--- a/OneDrive/Desktop/git_seema/.gitignore
++++ b/OneDrive/Desktop/git_seema/.gitignore
+@@ -0,0 +1 @@
++secretKey.txt
+diff --git a/OneDrive/Desktop/git_seema/se.txt b/OneDrive/Desktop/git_seema/se.txt
+new file mode 100644
+index 0000000..ddb68b0
+--- /dev/null
++++ b/OneDrive/Desktop/git_seema/se.txt
+@@ -0,0 +1 @@
++week 3 questions
+-- 
+2.50.1.windows.1
+
